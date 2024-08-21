@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131720;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #131720;
+  padding: 10px;
+  align-items: center;
+}
+.topnav a img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 11px 11px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #151f30;
+  border-radius: 10px;
+  margin-top: 1px;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+form {
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+  
+  
+}
+
+.thumbnail {
+  height: 350px;
+  width: 300px;
+  border-radius: 19px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  
+}
+
+.card {
+  border-radius: 19px;
+  padding: 15px;
+  background-color: #151f30;
+  text-align: center;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Başlangıç gölge efekti */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Yükseltilmiş gölge efekti */
+  
+}
